@@ -31,19 +31,19 @@ class AzureTableStorageConfiguration(Configuration):
         super(AzureTableStorageConfiguration, self).__init__(**kwargs)
 
         self.url = url
-        self.version = "2018-10-10"
-        self.version = "2018-10-10"
-        self.version = "2018-10-10"
-        self.version = "2018-10-10"
-        self.version = "2018-10-10"
-        self.version = "2018-10-10"
-        self.version = "2018-10-10"
-        self.version = "2018-10-10"
-        self.version = "2018-10-10"
-        self.version = "2018-10-10"
-        self.version = "2018-10-10"
-        self.version = "2018-10-10"
-        self.version = "2018-10-10"
+        self.version = "2019-02-02"
+        self.version = "2019-02-02"
+        self.version = "2019-02-02"
+        self.version = "2019-02-02"
+        self.version = "2019-02-02"
+        self.version = "2019-02-02"
+        self.version = "2019-02-02"
+        self.version = "2019-02-02"
+        self.version = "2019-02-02"
+        self.version = "2019-02-02"
+        self.version = "2019-02-02"
+        self.version = "2019-02-02"
+        self.version = "2019-02-02"
         self.credential_scopes = ['https://storage.azure.com/.default']
         self._configure(**kwargs)
         self.user_agent_policy.add_user_agent('azsdk-python-azuretablestorage/{}'.format(VERSION))
