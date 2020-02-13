@@ -25,19 +25,6 @@ class AzureTableStorageConfiguration(Configuration):
         super(AzureTableStorageConfiguration, self).__init__(**kwargs)
 
         self.url = url
-        self.version = "2019-02-02"
-        self.version = "2019-02-02"
-        self.version = "2019-02-02"
-        self.version = "2019-02-02"
-        self.version = "2019-02-02"
-        self.version = "2019-02-02"
-        self.version = "2019-02-02"
-        self.version = "2019-02-02"
-        self.version = "2019-02-02"
-        self.version = "2019-02-02"
-        self.version = "2019-02-02"
-        self.version = "2019-02-02"
-        self.version = "2019-02-02"
         self.version = "2018-10-10"
         self.version = "2018-10-10"
         self.version = "2018-10-10"
